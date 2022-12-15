@@ -56,7 +56,7 @@ public class KLargestOrderStatisticsImpl<T extends Comparable<T>> implements KLa
 	 */
 	public T orderStatistics(T[] array, int k) {
 		T result = null;
-
+		
 		if (k >= 1 && k <= array.length && array.length > 0) {
 			for (int i = 0; i <= k; i++) {
 				int smallest = i;
