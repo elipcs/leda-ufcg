@@ -10,8 +10,7 @@ import util.Util;
  * pushing small elements to the left. This process is repeated until the array
  * is sorted.
  */
-public class BidirectionalBubbleSort<T extends Comparable<T>> extends
-        AbstractSorting<T> {
+public class BidirectionalBubbleSort<T extends Comparable<T>> extends AbstractSorting<T> {
 
     @Override
     public void sort(T[] array, int leftIndex, int rightIndex) {

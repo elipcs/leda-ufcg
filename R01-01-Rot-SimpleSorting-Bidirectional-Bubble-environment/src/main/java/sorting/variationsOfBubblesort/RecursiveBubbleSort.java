@@ -24,7 +24,6 @@ public class RecursiveBubbleSort<T extends Comparable<T>> extends
 					Util.swap(array, i, i + 1);
 				}
 			}
-
 			if (rightIndex - 1 > leftIndex + 1) {
 				sort(array, leftIndex, rightIndex - 1);
 			}
