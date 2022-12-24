@@ -75,5 +75,6 @@ public class SimpleBSTManipulationImpl<T extends Comparable<T>> implements Simpl
 				result = orderStatistic((BSTNode<T>) node.getRight(), k);
 			}
 		}
+		return result;
 	}
 }
